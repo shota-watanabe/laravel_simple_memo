@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,4 @@ Route::post('/store', [HomeController::class, 'store'])->name('store');
 Route::get('/edit/{id}', [HomeController::class, 'edit'])->name('edit');
 Route::post('/update', [HomeController::class, 'update'])->name('update');
 Route::post('/destroy', [HomeController::class, 'destroy'])->name('destroy');
+Route::get('/guest', [LoginController::class, 'guestLogin'])->name('login.guest');
