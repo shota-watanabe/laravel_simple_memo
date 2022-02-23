@@ -1,5 +1,5 @@
 ## PHP・Laravelフレームワークを利用したシンプルメモアプリ
-# [メモアプリ](https://simple-memo0919.herokuapp.com/)
+# [メモアプリ](http://simple-memo0919.com/)
 ## サービス概要
 スマホとPCで使えるシンプルメモアプリです。  
 メモにタグを付与することができ、タグごとに分類することができます。
@@ -31,3 +31,8 @@
 - html/css
 - bootstrap
 - JavaScript
+- AWS
+    - VPC
+    - EC2
+    - RDS
+    - Route53
